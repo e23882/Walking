@@ -2,7 +2,13 @@
 ## 功能說明:
 ### 顯示附近再走路的隊員，可以一起走路比較不無聊
 ![image](https://github.com/e23882/Walking/blob/master/image/demo.png)
-
+##Quick Start
+```
+git clone https://github.com/e23882/Walking.git
+增加功能、修正問題、測試 
+git commit 
+git push
+```
 ### Features
 #### 部屬(找付費虛擬主機、自己架+noip、.....e.t.c.)
 #### CICD機制(github action、jenkins in 21f、jenkins service in my rasberry pi)
