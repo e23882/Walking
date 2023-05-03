@@ -38,14 +38,33 @@
 				lng = position.coords.longitude;
 				map = new google.maps.Map(document.getElementById('map'), 
 				{
-					zoom: 18,
+					zoom: 10,
 					center: { lat: lat, lng: lng }
 				});
+				
 				me = new google.maps.Marker(
 				{
 					position: { lat: lat, lng: lng },
 					map: map,
 					title:'Leo'
+				});
+				new google.maps.Marker(
+				{
+					position: { lat: 25.0216448, lng: 121.1496192 },
+					map: map,
+					title:'RAVEN'
+				});
+				new google.maps.Marker(
+				{
+					position: { lat: 25.0216448, lng: 121.1796192 },
+					map: map,
+					title:'RAVEN'
+				});
+				new google.maps.Marker(
+				{
+					position: { lat: 25.0216448, lng: 121.2196192 },
+					map: map,
+					title:'RAVEN'
 				});
 			});
 		}
